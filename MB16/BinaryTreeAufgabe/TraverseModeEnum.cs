@@ -5,6 +5,13 @@
         PreOrder,
         PostOrder,
         InOrder,
-        ReverseInOrder
+        ReverseInOrder,
+        LevelOrder
     }
+
+    public enum DisplayModeEnum
+    { 
+      Linear,
+      Hierarchical
+   }
 }
